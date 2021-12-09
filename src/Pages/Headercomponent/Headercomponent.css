@@ -1,0 +1,62 @@
+#spotify-headerblock{
+    background-color: #000;
+    height: 80px;
+}
+#spotify-headerblock > nav{
+    height: 80px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.spotifylogo svg{
+    width: 135px;
+    height: 100%;
+    fill: #fff;
+}
+
+.spotifylogo {
+    flex-basis: 20%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.spotifymenu {
+    flex-basis: 80%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.spotifymenu  nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.spotifymenu  nav ul li a{
+padding:28px 17px  ;
+text-decoration: none;
+color: #fff;
+}
+
+.spotifymenu  nav ul li a:nth-child(1),
+.spotifymenu  nav ul li a:nth-child(2),
+.spotifymenu  nav ul li a:nth-child(3){
+    font-weight: bold;
+
+}
+
+.bar {
+    height: 27px;
+    width: 1px;
+    display: inline-block;
+    background-color: #fff;
+    padding: 0;
+    margin: 32px 20px;
+}
+.spotifymenu  nav ul li a:hover{
+    color: green;
+}
+

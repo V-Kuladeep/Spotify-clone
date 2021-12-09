@@ -1,0 +1,72 @@
+#sliderblock {
+  background-color: rgb(150,240,182);
+}
+
+#sliderblock article {
+  display: flex;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  min-height: 630px;
+}
+#sliderblock article .sliderleft {
+  flex-basis: 60%;
+}
+
+#sliderblock article .sliderright {
+  flex-basis: 40%;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+
+.sliderleft {
+  color: #202f72;
+  margin: 80px 0;
+}
+.sliderleft h4 {
+  padding-bottom: 50px;
+  font-size: 14px;
+}
+
+.sliderleft h1 {
+  font-size: 3.5em;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding-bottom: 40px;
+}
+
+.sliderleft button{
+    padding:17px 48px;
+    border-radius: 500px;
+    border: none;
+    background:#202f72;
+    color: lightgreen;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    font-weight: bold;
+    margin-bottom: 50px;
+
+}
+ p.enjoy{
+     font-size: 20px;
+     font-weight: bold;
+     padding-bottom: 50px;
+     letter-spacing: 1.3px;
+
+ }
+
+.sliderright figure{
+    background:url(./Flower.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 67%;
+    height: 100%;
+    background-position: center center;
+
+}
+
+/* .copywrite{
+
+} */

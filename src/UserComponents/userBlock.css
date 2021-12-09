@@ -1,0 +1,68 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+#UserBlock article{
+    display: flex;
+    height: 100vh;
+}
+.userLeftBlock{
+flex-basis: 20%;
+background-color: #000;
+display: flex;
+/* justify-content: center; */
+}
+.userRightBlock{
+flex-basis: 80%;
+background-color: #121212;
+}
+.logo{
+    padding: 25px;
+    color: #fff;
+    
+}
+.logo svg{
+    fill: #fff;
+    height: 40px;
+   margin-bottom: 22px;
+}
+/* ListBar Starts */
+.Listbar {
+    display: flex;
+    justify-content: center;
+}
+.Listbar ul li {
+    list-style: none;
+    color: #928e8e;
+    margin-bottom: 14px;
+}
+.Listbar ul li a{
+color: #928e8e;
+}
+.Listbar ul li:hover{
+color: #fff;
+}
+.userLeftBlock .Listbar ul li a:hover{
+    color: #fff;
+}
+
+.Listbar ul li:nth-child(3) {
+    margin-bottom: 40px;
+}
+.Listbar ul li:nth-child(7) {
+   margin-bottom: 300px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+i{
+    padding: 2px;
+}
+.Listbar ul li span{
+    padding: 4px;
+}
+.Line{
+   color: #928e8e;
+    border-bottom: 1px solid;
+    width: 200px;
+    margin-bottom: 14px;
+    
+}
