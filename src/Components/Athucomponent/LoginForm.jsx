@@ -67,7 +67,7 @@ const LoginForm = ({history}) => {
           />
         </div>
 
-        <Link to="/">Forgot Password</Link>
+        <Link to="/PasswordReset">Forgot Password</Link>
 
         <span>
           <div className="form-group">

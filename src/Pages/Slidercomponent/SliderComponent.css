@@ -70,7 +70,7 @@
 .slider1Left {
   color: #202f72;
   margin: 80px 0;
-  padding-left: 50px;
+  padding-left: 150px;
 }
 .slider1Left h4 {
   font-size: 14px;
@@ -79,10 +79,10 @@
 .slider1Left h1 {
   font-size: 66px;
   font-weight: 900;
-  padding-bottom: 52px;
+  padding-bottom: 30px;
 }
 .discover {
-  padding-bottom: 50px;
+  padding-bottom: 25px;
   font-size: 24px;
   letter-spacing: 1px;
 }
@@ -107,7 +107,7 @@
 }
 #slider2-Block article {
   display: flex;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   height: 606px;
 }
@@ -151,7 +151,7 @@
   margin-left: 50px;
 }
 .spotifyLogo svg{
-  height: 45px;
+  height: 47px;
   margin-left: 102px;
 }
 .company {
@@ -183,5 +183,47 @@
   font-size: 15px;
 }
 .socialMedia {
+  display: flex;
   flex-basis: 30%;
+  padding-right: 10px;
+  justify-content: center;
+}
+
+.socialMedia span{
+ padding: 40px;
+ height: 40px;
+ width: 40px;
+}
+.socialMedia span i{
+  background:  #282828;;
+  border-radius:500px ;
+  font-size: 25px;
+  height: 50px;
+  width: 50px;
+  padding: 12px 14px;
+}
+.fa-facebook-f:before {
+    content: "\f39e";
+    padding: 3px;
+}
+
+.footer{
+  display:flex;
+  color: grey;
+  padding-right: 320px;
+  
+}
+.mainFooter{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+.mainFooter .footer h6{
+  padding-left: 18px;
+
+}
+.secondFooter h6:nth-child(1)
+{
+  padding-left: 58px;
+  padding-bottom: 5px;
 }

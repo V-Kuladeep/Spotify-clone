@@ -46,6 +46,10 @@ const SignupForm = ({history}) => {
               let confirmMessage = `A verification message has been sent to${email} and verfiy and login`;
               USER_DATA.user.sendEmailVerification();
               toast.info(confirmMessage);
+              USER_DATA.user.updateProfile({
+                displayName: profile_name,
+                photoURL:"https://w7.pngwing.com/pngs/340/956/png-transparent-profile-user-icon-computer-icons-user-profile-head-ico-miscellaneous-black-desktop-wallpaper.png"
+              })
               //window.location.assign('./login)
               history.push('./login');
             } else {

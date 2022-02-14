@@ -21,29 +21,29 @@
     flex-basis: 20%;
     display: flex;
     justify-content: flex-end;
-
+    padding-right: 108px;
 }
-.spotifymenu {
+.spotifymenu  {
     flex-basis: 80%;
     display: flex;
     justify-content: flex-end;
 
 }
-.spotifymenu  nav ul{
+.spotifymenu > nav> ul{
     display: flex;
     list-style: none;
     align-items: center;
 }
 
-.spotifymenu  nav ul li a{
+.spotifymenu > nav > ul > li > a{
 padding:28px 17px  ;
 text-decoration: none;
 color: #fff;
 }
 
-.spotifymenu  nav ul li a:nth-child(1),
-.spotifymenu  nav ul li a:nth-child(2),
-.spotifymenu  nav ul li a:nth-child(3){
+.spotifymenu > nav > ul > li > a:nth-child(1),
+.spotifymenu > nav > ul > li > a:nth-child(2),
+.spotifymenu > nav > ul > li > a:nth-child(3){
     font-weight: bold;
 
 }
@@ -60,3 +60,53 @@ color: #fff;
     color: green;
 }
 
+.profile_img{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    background: #99999978;
+    padding:4px 12px;
+    border-radius: 7px;
+}
+.profile_img img{
+    width: 30px;
+    margin: 0px 11px 0px 0px;
+}
+
+.spotifymenu .dropDown{
+z-index:9999;
+position: absolute;
+inset: 0px 0px auto auto;
+margin: 0px;
+transform: translate3d(-32px,56px,0px);
+min-width: 196px;
+top: 11px;
+right: -10px;    
+}
+.spotifymenu .dropDown ul{
+-webkit-app-region:no-drag;
+background-color: #282828;
+border-radius: 4px;
+box-shadow:0 16px 24px rgb( 0 0 0 /30%),0 6px 8px rgb(0 0 0 /20%);
+max-height: calc(100vh-24px);
+    list-style: none;
+}
+.spotifymenu .dropDown li a{
+    background: transparent;
+    border: 0;
+    border-radius: 2px;
+    color: #fff;
+    cursor: default;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    font-size: 14px;
+    cursor: pointer;
+  
+}
+
+.spotifymenu .dropDown li a:hover{
+    background-color: rgba(255,255,255,0.1);
+    color: #fff;
+    text-decoration: none;
+}

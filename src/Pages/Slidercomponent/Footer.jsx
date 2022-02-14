@@ -7,7 +7,7 @@ const Footer = () => {
     <section id="footerBlock">
       <article>
         <div className="spotifyLogo">
-          <Logo/>
+          <Logo />
         </div>
         <div className="company">
           <h3 style={{ color: "grey" }}>Company</h3>
@@ -29,8 +29,37 @@ const Footer = () => {
           <h3>Web Player</h3>
           <h3>Free Mobile App</h3>
         </div>
-        <div className="socialMedia"></div>
+        <div className="socialMedia">
+          <span>
+            <i class="fab fa-instagram"></i>
+          </span>
+          <span>
+            <i class="fab fa-twitter"></i>
+          </span>
+          <span>
+            <i class="fab fa-facebook-f"></i>
+          </span>
+        </div>
       </article>
+      <footer className="mainFooter">
+        <div className="footer">
+          <h6>Legal</h6>
+          <h6>Privacy Center</h6>
+          <h6>Privacy Policy</h6>
+          <h6>Cookies</h6>
+          <h6>About Ads</h6>
+          <h6>Additional CA Privacy Disclosures</h6>
+        </div>
+        <div style={{ color: "grey" }} className="secondFooter">
+          <h6>
+            <span>
+              <i class="far fa-globe-africa"></i>
+            </span>
+            USA
+          </h6>
+          <h6> © 2021 Spotify AB</h6>
+        </div>
+      </footer>
     </section>
   );
 };

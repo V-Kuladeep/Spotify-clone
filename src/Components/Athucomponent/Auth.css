@@ -202,3 +202,15 @@ color:#1ed760;
 .meBlock{
 display: flex;
 }
+#phoneblock{
+  display: flex;
+ justify-content: center;
+}
+#phoneblock article h1{
+  margin-top: 50px;
+  font-size: 15px;
+}
+#phoneblock article div form input{
+  width: 200px;
+  height: 30px;
+}

@@ -2,20 +2,21 @@ import React from 'react'
 import Logo from './../Pages/Headercomponent/Logo';
 import { Link } from 'react-router-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
+import { Fragment } from 'react';
 
 const UserLeftBLock = () => {
-    return (
+  return (
+    <Fragment>
       <div className="userLeftBlock">
         <div className="logo">
           <Logo />
-          <Router>
             <div className="Listbar">
               <ul>
                 <li>
                   <span>
                     <i class="fas fa-home-alt"></i>
                   </span>
-                  <Link to="/">Home</Link>
+                  <Link to="/userhome/music-home">Home</Link>
                 </li>
                 <li>
                   <span>
@@ -31,7 +32,7 @@ const UserLeftBLock = () => {
                   <span>
                     <i class="fas fa-plus-square"></i>
                   </span>
-                  <Link>Created Playlist</Link>
+                  <Link to="/userhome/create-play-list">Created Playlist</Link>
                 </li>
                 <li>
                   <span>
@@ -51,10 +52,10 @@ const UserLeftBLock = () => {
                 </li>
               </ul>
             </div>
-          </Router>
         </div>
       </div>
-    );
+    </Fragment>
+  );
 }
 
 export default UserLeftBLock
